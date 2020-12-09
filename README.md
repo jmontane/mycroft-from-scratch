@@ -58,7 +58,7 @@ Això baixa el codi del nucli de Mycroft i executa l'instal·lador de dependènc
 - A la pregunta ```Do you want to automatically check code-style when submitting code.````, respongueu Y.
 - Es possible que us demani confirmació per a instal·lar els paquests necessaris ```Do you want to continue?```, respongueu Y.
 - Ara trigarà una mica en instal·lar Mycroft. Una vegada hagi acabat, és millor reniciar la màquina virtual on heu instal·lat Mycroft.
-- Una vegada heu reniciat, obriu una finestra de terminal, aneu a ~/mycroft-core i activeu l'entern de desenvolupament: ```source venv.sh```
+- Una vegada heu reniciat, obriu una finestra de terminal, aneu a ~/mycroft-core i activeu l'entern de desenvolupament: ```source venv-activate.sh```
 - Podeu iniciar Mycroft amb ```./start-mycroft.sh debug```
 - Si tot ha funcionat bé, us demanarà de registrar el vostre aparell a http://home.mycroft.ai. Feu-ho. Obriu una finestra del navegador web i aneu a https://home.mycroft.ai, només cal crear-vos un compte i registrar l'aparell amb el codi de 6 dígits que us diu.
 - Per a sortir de Mycrot poder fer ```:quit``` i, una vegada en el terminal executeu ```./stop-mycroft.sh``` per a aturar els serveis de Mycroft.
